@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfAreaInfoData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <AreaInfoData>
+    <Name>地名</Name>
+    <Lat>36</Lat>
+    <Lng>140</Lng>
+    <Note>補足事項</Note>
+  </AreaInfoData>
+  <AreaInfoData>
+    <Name>地名2</Name>
+    <Lat>37</Lat>
+    <Lng>140</Lng>
+    <Note>補足事項2</Note>
+  </AreaInfoData>
+</ArrayOfAreaInfoData>
