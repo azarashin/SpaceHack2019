@@ -63,6 +63,7 @@
     <Compile Include="Assets\ShadowOfEarth\Scripts\AreaElement.cs" />
     <Compile Include="Assets\ShadowOfEarth\Scripts\AreaInfo.cs" />
     <Compile Include="Assets\ShadowOfEarth\Scripts\Earth.cs" />
+    <Compile Include="Assets\ShadowOfEarth\Scripts\MotionController.cs" />
     <None Include="Assets\ShadowOfEarth\Shaders\EarthSurface.shader" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>D:/azarashin/development/SpaceHack2019/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
@@ -282,6 +283,9 @@
     </Reference>
     <Reference Include="UnityEngine.SpatialTracking">
       <HintPath>D:/ProgramFiles/2018.3.5f1/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
+    </Reference>
+    <Reference Include="Valve.Newtonsoft.Json">
+      <HintPath>D:/azarashin/development/SpaceHack2019/Assets/SteamVR/Input/Plugins/JSON.NET/Valve.Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Editor">
       <HintPath>D:/azarashin/development/SpaceHack2019/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
@@ -637,6 +641,28 @@
     <Reference Include="System.Xml.Serialization">
       <HintPath>D:/ProgramFiles/2018.3.5f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Xml.Serialization.dll</HintPath>
     </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="SteamVR_Input_Editor.csproj">
+      <Project>{D8E3A625-0E7C-C23A-39A6-4F02FA84A00A}</Project>
+      <Name>SteamVR_Input_Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="SteamVR_Editor.csproj">
+      <Project>{D7962F23-B5D8-3D7D-1106-69919DBC1560}</Project>
+      <Name>SteamVR_Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="SteamVR_Actions.csproj">
+      <Project>{92381DB5-19EF-784D-6159-9023B208C0A6}</Project>
+      <Name>SteamVR_Actions</Name>
+    </ProjectReference>
+    <ProjectReference Include="SteamVR.csproj">
+      <Project>{7186A982-7747-DF8A-2B02-B74A63B8FDB0}</Project>
+      <Name>SteamVR</Name>
+    </ProjectReference>
+    <ProjectReference Include="SteamVR_Windows_EditorHelper.csproj">
+      <Project>{C0E73853-61AF-E094-8EEF-017C8240D6B7}</Project>
+      <Name>SteamVR_Windows_EditorHelper</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />

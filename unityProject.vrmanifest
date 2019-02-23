@@ -1,0 +1,16 @@
+{
+  "source": "Unity",
+  "applications": [
+    {
+      "app_key": "application.generated.unity.spacehack2019.exe",
+      "launch_type": "url",
+      "url": "steam://launch/",
+      "action_manifest_path": "D:\\azarashin\\development\\SpaceHack2019\\actions.json",
+      "strings": {
+        "en_us": {
+          "name": "SpaceHack2019 [Testing]"
+        }
+      }
+    }
+  ]
+}

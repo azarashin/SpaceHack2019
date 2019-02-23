@@ -50,9 +50,9 @@ public class AreaInfo : MonoBehaviour
         {
             AreaElement ae = Instantiate(_elementPrefab, transform);
             ae.transform.position = new Vector3(
-                (float)Math.Sin(aid.Lng * Math.PI / 180.0f),
-                (float)Math.Sin(aid.Lat * Math.PI / 180.0f),
-                (float)Math.Cos(aid.Lng * Math.PI / 180.0f)); 
+                (float)Math.Sin(aid.Lng * Math.PI / 180.0f) * 0.45f,
+                (float)Math.Sin(aid.Lat * Math.PI / 180.0f) * 0.45f,
+                (float)Math.Cos(aid.Lng * Math.PI / 180.0f) * 0.45f); 
         }
     }
 
